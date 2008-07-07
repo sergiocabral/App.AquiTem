@@ -1,0 +1,21 @@
+/************************************************************************************************
+Tags padrão HTML
+************************************************************************************************/
+body {
+	/*
+	scrollbar-base-color: ;
+	scrollbar-face-color: ;
+	scrollbar-track-color: ;
+	scrollbar-arrow-color: ;
+	scrollbar-3dlight-color: ;
+	scrollbar-darkshadow-color: ;
+	scrollbar-highlight-color: ;
+	scrollbar-shadow-color: ;
+	*/
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	cursor: default;
+}

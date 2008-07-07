@@ -1,0 +1,624 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html dir="ltr" lang="pt">
+
+	<head>
+	
+		<title>
+		</title>
+		
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="robots" content="index, follow" />
+		<meta http-equiv="content-language" content="br">
+		<meta http-equiv="content-type" content="text/html; charset='windows-1252'" />
+
+		<link rel="stylesheet" type="text/css" href="_include/classe.css" />
+		
+		<style type="text/css" media="all">
+			body {
+				background-attachment: fixed;
+				background-image: url(_imagem/img_fundo_conteudo.gif);
+				background-position: top;
+				background-repeat: repeat-x;
+				background-color: #EBEBEB;
+			}
+			
+			input, select {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 9px;
+				font-weight: normal;
+			}
+			
+			#tag_intro_lateral {
+				background-color: #FAE49A;
+				border-left: 1px solid #000000;
+				border-right: 1px solid #000000;
+				width: 4px;
+				height: 100%;
+			}
+			
+			#tag_intro_conteudo {
+				background-color: #FFFFFF;
+				height: 100%;
+			}
+			
+			#tag_intro_menu_superior {
+				background-attachment: fixed;
+				background-image: url(_imagem/img_fundo_menu_superior.gif);
+				background-position: top;
+				background-repeat: repeat-x;
+				background-color: #FBF0C9;
+				border-bottom: 2px solid #FAE49A;
+				margin: 2px 0px 5px 0px;
+				padding: 0px 0px 5px 0px;
+				font-size: 10px;
+				font-weight: bold;
+				line-height: 18px;
+				width: 100%; 
+			}
+			
+			#tag_intro_menu_superior a {
+				display: inline;
+				margin: 0px 5px 0px 5px;
+				text-decoration: none;				
+				color: #444488;
+				padding: 2px 5px 2px 5px;
+			}
+
+			#tag_intro_menu_superior a:hover {
+				text-decoration: underline;
+				border-left: 2px solid #FAE49A;
+				border-right: 2px solid #FAE49A;
+				background-color: #FCEFC2;
+				padding: 2px 3px 2px 3px;
+			}
+			
+			#tag_intro_cabecalho {
+				font-size: 25px;
+				font-family: "Times New Roman", Times, serif;
+				font-weight: bold;
+				color: #444488;
+				padding: 0px 0px 0px 0px;
+				margin: 0px 0px 10px 0px;
+				width: 100%;
+			}
+			
+			#tag_intro_cabecalho_menu {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 9px;
+				text-align: center;
+				background-color: #67799A;
+				padding: 5px 0px 5px 0px;
+				margin: 0px 0px 0px 0px;
+				color: #FFFFFF;
+				font-weight: bold;
+			}
+			.cls_intro_cabecalho_menu {
+				background-color: #67799A;
+			}
+			
+			#tag_intro_cabecalho_menu_opc {
+				margin: 5px 0px 0px 0px;
+				color: #495B00;
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				background-color: #F1F3F7;
+				border: 1px solid #67799A;
+				text-align: center;
+			}
+			
+			#tag_intro_cabecalho_menu_opc_txt {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight: bold;
+				color: #014069;
+			}
+			
+			#tag_intro_cabecalho_menu_opc_txt2 {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 10px;
+				font-weight: normal;
+				padding: 2px 0px 2px 0px;
+			}
+
+			.cls_intro_cabecalho_menu_comprador {
+				color: #690101;
+				background-color: #FE6B6B;
+			}
+			.cls_intro_cabecalho_menu_vendedor {
+				color: #014069;
+				background-color: #6CC4FD;
+			}
+			
+			#tag_intro_rodape {
+				background-color: #FEFBF1;
+				text-align: center;
+				font-size: 8px;
+				border-top: 1px solid #FAE49A;
+				padding: 5px 0px 0px 0px;
+				margin: 10px 0px 0px 0px;
+				width: 100%;
+			}
+			
+			#tag_intro_menu_lateral {
+				font-size: 11px;
+				font-weight: normal;
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				width: 174px;
+				margin: 0px 5px 0px 10px;
+			}
+
+			#tag_intro_menu_lateral a {
+				display: block;
+				text-decoration: none;
+				color: #444488;
+				width: 100%;
+				cursor: pointer;
+			}
+
+			#tag_intro_menu_lateral h1, #tag_intro_menu_lateral h1 a {
+				font-weight: bold;
+				font-size: 13px;
+				margin: 0px 0px 1px 0px;
+				color: #694001;
+				text-indent: 6px;
+			}
+
+			#tag_intro_menu_lateral ul {
+				overflow: auto;
+				margin: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+				list-style-type: none;
+			}
+
+			#tag_intro_menu_lateral li a{
+				width: 98%;
+				border-left: 2px solid #FDC46C;
+				background: #EEF2F5;
+				text-indent: 4px;
+				padding: 2px 0px 2px 0px;
+				margin: 0px 0px 1px 0px;
+			}
+
+			#tag_intro_menu_lateral li a:hover {
+				border-left-color: #E56004;
+				background: #FDC46C;
+				color: #000000;
+			}
+
+			#tag_intro_menu_lateral #vermelho h1, #tag_intro_menu_lateral #vermelho h1 a { 		color: #690101; } #tag_intro_menu_lateral #vermelho li a { 		border-left: 2px solid #FE6B6B; } #tag_intro_menu_lateral #vermelho li a:hover { 		border-left-color: #E40505; background: #FE6B6B; }
+
+			#tag_intro_menu_lateral #amarelo h1, #tag_intro_menu_lateral #amarelo h1 a { 		color: #694001; } #tag_intro_menu_lateral #amarelo li a { 		border-left: 2px solid #FDC46C; } #tag_intro_menu_lateral #amarelo li a:hover { 		border-left-color: #E56004; background: #FDC46C; }
+
+			#tag_intro_menu_lateral #azul h1, #tag_intro_menu_lateral #azul h1 a { 				color: #014069; } #tag_intro_menu_lateral #azul li a { 			border-left: 2px solid #6CC4FD; } #tag_intro_menu_lateral #azul li a:hover { 			border-left-color: #0460E5; background: #6CC4FD; }
+
+			#tag_intro_menu_lateral #verde h1, #tag_intro_menu_lateral #verde h1 a { 			color: #406901; } #tag_intro_menu_lateral #verde li a { 		border-left: 2px solid #C4FD6C; } #tag_intro_menu_lateral #verde li a:hover { 			border-left-color: #60E504; background: #C4FD6C; }
+
+			#tag_intro_menu_lateral #roxo h1, #tag_intro_menu_lateral #roxo h1 a { 				color: #010169; } #tag_intro_menu_lateral #roxo li a { 			border-left: 2px solid #6C6CFD; } #tag_intro_menu_lateral #roxo li a:hover { 			border-left-color: #0404E6; background: #6C6CFD; }
+
+		</style>
+		
+		<script src="_include/funcoes.js"></script>
+		<script src="_include/funcoes_aplicacao.js"></script>
+		<script src="_include/executa_antes.js"></script>
+
+		<script language="javascript">
+			function fVoid_BuscaExibe(aBol_Modo) {
+				if (window.document.getElementById('tag_intro_cabecalho_menu_opc').height == undefined) {
+					window.document.getElementById('tag_intro_cabecalho_menu_opc').height = parseInt(window.document.getElementById('tag_intro_cabecalho_menu_opc').style.height);
+					window.document.getElementById('tag_intro_cabecalho_menu_opc').style.display = 'none';
+					window.document.getElementById('tag_intro_cabecalho_menu_opc').style.height = '0px';
+					window.document.getElementById('tag_intro_cabecalho_menu_opc_').style.display = 'none';
+				}
+
+				if ((aBol_Modo) && (parseInt(window.document.getElementById('tag_intro_cabecalho_menu_opc').style.height) == 0)) {
+					window.document.getElementById('tag_intro_cabecalho_menu_opc_').style.display = 'none';
+					window.document.getElementById('tag_intro_cabecalho_menu_opc').style.height = '0px';
+					window.document.getElementById('tag_intro_cabecalho_menu_opc').style.display = '';
+					for (var vInt_1 = 0; vInt_1 <= window.document.getElementById('tag_intro_cabecalho_menu_opc').height; vInt_1++) {
+						if (vInt_1 == window.document.getElementById('tag_intro_cabecalho_menu_opc').height) {
+							setTimeout('window.document.getElementById(\'tag_intro_cabecalho_menu_opc_\').style.display = \'\';',vInt_1 * 2);
+						}
+						else {
+							setTimeout('window.document.getElementById(\'tag_intro_cabecalho_menu_opc\').style.height = \'' + vInt_1 + 'px\';',vInt_1 * 2);
+						}
+					}
+				}
+				else if ((!aBol_Modo) && (parseInt(window.document.getElementById('tag_intro_cabecalho_menu_opc').style.height) == window.document.getElementById('tag_intro_cabecalho_menu_opc').height - 1)) {
+					window.document.getElementById('tag_intro_cabecalho_menu_opc_').style.display = 'none';
+					for (var vInt_1 = window.document.getElementById('tag_intro_cabecalho_menu_opc').height - 1; vInt_1 >= -1; vInt_1--) {
+						if (vInt_1 == -1) {
+							setTimeout('window.document.getElementById(\'tag_intro_cabecalho_menu_opc\').style.display = \'none\';',window.document.getElementById('tag_intro_cabecalho_menu_opc').height * 2 - vInt_1 * 2);
+						}
+						else {
+							setTimeout('window.document.getElementById(\'tag_intro_cabecalho_menu_opc\').style.height = \'' + vInt_1 + 'px\';',window.document.getElementById('tag_intro_cabecalho_menu_opc').height * 2 - vInt_1 * 2);
+						}
+					}
+				}
+
+				return;
+			}
+			
+			function fVoid_BuscaExibicao(aBol_Exibir) {
+				var vBol_Modo = Boolean(window.document.getElementById('frm_busca').txt_busca.focused || 
+										window.document.getElementById('frm_busca').lst_area.focused ||
+										window.document.getElementById('frm_busca').rad_tipo[0].focused ||
+										window.document.getElementById('frm_busca').rad_tipo[1].focused ||
+										window.document.getElementById('frm_busca').btn_ir.focused										
+										);
+				fVoid_BuscaExibe(vBol_Modo);
+
+				return;
+			}
+			
+			function fVoid_BuscaTipo() {
+				if (window.document.getElementById('frm_busca').rad_tipo[0].checked) {
+					window.document.getElementById('tag_intro_cabecalho_menu_opc_txt2').className = 'cls_intro_cabecalho_menu_comprador';
+				}
+				else if (window.document.getElementById('frm_busca').rad_tipo[1].checked) {
+					window.document.getElementById('tag_intro_cabecalho_menu_opc_txt2').className = 'cls_intro_cabecalho_menu_vendedor';
+				}
+				else {
+					window.document.getElementById('tag_intro_cabecalho_menu_opc_txt2').className = '';
+				}
+
+				return;
+			}
+
+			function fVoid_BuscaChange() {
+				var vStr_Busca = String(fStr_SemAcento(window.document.getElementById('frm_busca').txt_busca.value.trim())).toLowerCase();
+				var vObj_List = window.document.getElementById('frm_busca').lst_area;
+
+				for (var vInt_1 = 0; vInt_1 < vObj_List.options.length; vInt_1++) {
+					var vRegExp_1 = RegExp(vObj_List.options[vInt_1].value);
+					vObj_List.options[vInt_1].selected = (vStr_Busca.search(vRegExp_1) >= 0);
+				}
+				
+				return;
+			}
+		</script>
+
+	</head>
+
+	<body>
+	
+		<center>
+			<table border="0" cellpadding="0" cellspacing="0" width="750" height="100%">
+				<tr>
+					<td>
+						<div id="tag_intro_lateral" name="tag_intro_lateral"></div>
+					</td>
+					<td width="100%">
+						<div id="tag_intro_conteudo" name="tag_intro_conteudo">
+							
+							<table border="0" cellpadding="5" cellspacing="0" width="100%" height="100%">
+								<tr>
+									<td valign="top">
+
+										<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+											<tr>
+												<td colspan="2">
+												
+													<table border="0" cellpadding="0" cellspacing="0" width="100%">
+														<tr>
+															<td>
+																<div id="tag_intro_menu_superior" name="tag_intro_menu_superior" style="text-align: left;">
+																	<a href="javascript:;" style="color: #AA0000;" title="Não perca tempo. Cadastre-se Já!">Cadastre-se AGORA!</a>
+																	<a href="javascript:;" style="color: #0000AA;" title="Efetuar login.">Entrar</a>
+																</div>
+															</td>
+															<td>
+																<div id="tag_intro_menu_superior" name="tag_intro_menu_superior" style="text-align: right;">
+																	<a href="javascript:;" title="">Política de Uso</a>
+																	<a href="javascript:;" title="">Mapa do Site</a>
+																	<a href="javascript:;" title="">Contato</a>
+																</div>
+															</td>
+														</tr>
+													</table>
+
+												</td>
+											</tr>
+											<tr>
+												<td style="background-image: url(_imagem/img_logotipo.gif); background-position: top right; background-repeat: no-repeat;">
+													<div style="font-size: 0px; height: 110px; "></div>
+												</td>
+												<td style="background-image: url(_imagem/img_logotipo_linha.gif); background-position: top left; background-repeat: repeat-x;">
+													<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+														<tr height="100%">
+															<td align="center" valign="top">
+																<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="445" height="57">
+																	<param name="movie" value="_imagem/swf_comercial.swf">
+																	<param name="quality" value="high">
+																	<embed src="_imagem/swf_comercial.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="445" height="57"></embed>
+																</object>
+															</td>
+														</tr>
+														<tr>
+															<td align="right">
+																<table border="0" cellpadding="0" cellspacing="0" style="position: relative; top: -5px; ">
+																	<tr>
+																		<td>
+																			<div style="width: 10px;"></div>
+																		</td>
+																		<td class="cls_intro_cabecalho_menu" style="background-image: url(_imagem/img_fundo_menu_cabecalho_1.gif); background-position: bottom left; background-repeat: no-repeat; font-size: 0px;">
+																			<div style="width: 10px;"></div>
+																		</td>
+																		<td rowspan="2" valign="bottom" nowrap>
+																			<form id="frm_busca" name="frm_busca" style="height: 100%; margin: 0px 0px 0px 0px;">
+																				<div id="tag_intro_cabecalho_menu" name="tag_intro_cabecalho_menu" style="position: relative; top: 0px; width: 350px;">
+																					Pesquisar:
+																					<input id="txt_busca" name="txt_busca" type="text" value="" style="width: 200px;" />
+																				</div>
+																				<div id="tag_intro_cabecalho_menu_opc" name="tag_intro_cabecalho_menu_opc" style="position: absolute; width: 350px; display: none; height: 97px;">
+																					<div id="tag_intro_cabecalho_menu_opc_" name="tag_intro_cabecalho_menu_opc_">
+																						<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+																							<tr>
+																								<td width="100%" valign="middle">
+																									<table border="0" cellpadding="5" cellspacing="0" width="100%" height="100%">
+																										<tr>
+																											<td align="left" valign="top">
+																												<div style="font-size: 0px; height: 3px; "></div>
+																												<div id="tag_intro_cabecalho_menu_opc_txt2" name="tag_intro_cabecalho_menu_opc_txt2" class="cls_intro_cabecalho_menu_comprador">
+																													&nbsp;<strong>Quem sou eu?</strong><br />
+																													<input id="rad_tipo" name="rad_tipo" checked type="radio" style="position: relative; top: 1px; left: -1px;" />
+																													Comprador
+																													&nbsp;
+																													<input id="rad_tipo" name="rad_tipo" type="radio" style="position: relative; top: 1px; left: -1px;" />
+																													Vendedor
+																												</div>
+																											</td>
+																										</tr>
+																										<tr height="100%">
+																											<td align="center" valign="middle">
+																												<div id="tag_intro_cabecalho_menu_opc_txt" name="tag_intro_cabecalho_menu_opc_txt">
+																													Escolha a área de negócio:
+																												</div>
+																											</td>
+																										</tr>
+																									</table>
+																								</td>
+																								<td valign="top">
+																									<div style="font-size: 0px; height: 8px; "></div>
+																									<select id="lst_area" name="lst_area" multiple style="height: 79px;">
+																										<option value="(^autom)|(^carr)">Automóvel</option>
+																										<option value="(^eletr)">Eletrônica</option>
+																										<option value="(^eletr)|(^informati)|(^comput)|(^notebook)|(^laptop)|(^palm)|(^info)">Informática</option>
+																										<option value="(^hidraulic)|(\^agua)">Hidráulica</option>
+																										<option value="(^hotel)|(^motel)|(^pousada)">Hotelaria</option>
+																										<option value="(^limp)|(^lix)">Limpeza</option>
+																									</select>
+																								</td>
+																								<td>
+																									<div style="font-size: 0px; width: 5px; "></div>
+																								</td>
+																								<td valign="top">
+																									<div style="font-size: 0px; height: 8px; "></div>
+																									<button id="btn_ir" name="btn_ir" style="height: 79px; "><img src="_imagem/img_botao_ir.gif" border="0" alt="" /></button>
+																								</td>
+																								<td>
+																									<div style="font-size: 0px; width: 4px; "></div>
+																								</td>
+																							</tr>
+																						</table>
+																					</div>
+																				</div>
+																			</form>
+																		</td>
+																		<td class="cls_intro_cabecalho_menu" style="background-image: url(_imagem/img_fundo_menu_cabecalho_2.gif); background-position: bottom right; background-repeat: no-repeat; font-size: 0px;">
+																			<div style="width: 10px; "></div>
+																		</td>
+																		<td>
+																			<div style="width: 10px;"></div>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr height="100%">
+												<td valign="top">
+												
+													<table border="0" cellpadding="0" cellspacing="0" style="background-image: url(_imagem/img_fundo_menu_lateral.gif); margin: 0px 6px 0px 0px;">
+														<tr>
+															<td>
+																<div style="font-size: 0px;"></div>
+															</td>
+															<td>
+																<div style="background-image: url(_imagem/img_fundo_menu_lateral_1.gif); background-position: top left; font-size: 0px; width: 8px; height: 8px;"></div>
+															</td>
+														</tr>
+														<tr height="100%">
+															<td width="100%" valign="top">
+																<div id="tag_intro_menu_lateral" name="tag_intro_menu_lateral">
+																	<div id="laranja">
+																		<h1><a href="javascript:;" title="Gerenciamento de sua conta">sua CONTA</a></h1>
+																		<ul style2="height: 150px; ">
+																			<li><a href="_principal/introducao/index.php" title="Página inicial." target="ifr_conteudo">Introdução</a></li>
+																			<li><a href="javascript:;" title="Não perca tempo. Cadastre-se Já!">Cadastre-se Já!</a></li>
+																			<li><a href="javascript:;" title="Efetuar o Login.">Entrar</a></li>
+																		</ul>
+																	</div>
+																</div>
+																<br />
+																<div id="tag_intro_menu_lateral" name="tag_intro_menu_lateral">
+																	<div id="vermelho">
+																		<h1><a href="javascript:;" title="Gerenciamento de sua conta">para COMPRADORES</a></h1>
+																		<ul style2="height: 150px; ">
+																			<li><a href="javascript:;" title="Busque o que o pessoal está vendendo.">Busca</a></li>
+																			<li><a href="javascript:;" title="Registre sua solicitação de compra.">Solicitar compra</a></li>
+																		</ul>
+																	</div>
+																</div>
+																<br />
+																<div id="tag_intro_menu_lateral" name="tag_intro_menu_lateral">
+																	<div id="azul">
+																		<h1><a href="javascript:" title="Gerenciamento de sua conta">para VENDEDORES</a></h1>
+																		<ul style2="height: 150px; ">
+																			<li><a href="javascript:;" title="Busque o que o pessoal está comprando.">Busca</a></li>
+																			<li><a href="javascript:;" title="Não perca tempo. Cadastre-se Já!">Cadastre-se como vendedor</a></li>
+																		</ul>
+																	</div>
+																</div>
+																<br />
+																<div id="tag_intro_menu_lateral" name="tag_intro_menu_lateral">
+																	<div id="verde">
+																		<h1><a href="javascript:" title="Gerenciamento de sua conta">AQUI tem</a></h1>
+																		<ul style2="height: 150px; ">
+																			<li><a href="javascript:;" title="Todas as funcionalidades facilmente apresentadas.">Mapa do Site</a></li>
+																			<li><a href="javascript:;" title="Como usar corretamente.">Política de Uso</a></li>
+																		</ul>
+																	</div>
+																</div>
+															</td>
+															<td>
+																<div style="font-size: 0px;"></div>
+															</td>
+														</tr>
+														<tr>
+															<td colspan="2">
+																<div style="font-size: 0px; height: 6px;"></div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div style="font-size: 0px;"></div>
+															</td>
+															<td>
+																<div style="background-image: url(_imagem/img_fundo_menu_lateral_2.gif); background-position: top left; font-size: 0px; width: 8px; height: 8px;"></div>
+															</td>
+														</tr>
+													</table>
+													
+												</td>
+												<td width="100%" align="left" valign="top">
+													<div id="tag_conteudo" name="tag_conteudo" style="width: 100%; height: 100%; ">
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td colspan="2">
+													<div id="tag_intro_rodape" name="tag_intro_rodape">
+														Copyright © 2006
+													</div>
+												</td>
+											</tr>
+										</table>
+											
+									</td>
+								</tr>
+							</table>
+							
+						</div>
+					</td>
+					<td>
+						<div id="tag_intro_lateral" name="tag_intro_lateral"></div>
+					</td>
+				</tr>
+			</table>
+		</center>
+		
+		<iframe id="ifr_conteudo" name="ifr_conteudo" src="_principal/introducao/index.php" width="100%" style="display: none;"></iframe>
+	
+		<script language="javascript">
+			window.document.getElementById('frm_busca').txt_busca.onfocus = function() {
+				this.focused = true;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').txt_busca.onblur = function() {
+				this.focused = false;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').txt_busca.onclick = function() {
+				fVoid_BuscaChange();
+
+				return;
+			};
+			window.document.getElementById('frm_busca').txt_busca.onchange = function() {
+				fVoid_BuscaChange();
+
+				return;
+			};
+			window.document.getElementById('frm_busca').txt_busca.onkeyup = function() {
+				fVoid_BuscaChange();
+
+				return;
+			};
+			
+			window.document.getElementById('frm_busca').lst_area.onfocus = function() {
+				this.focused = true;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').lst_area.onblur = function() {
+				this.focused = false;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			
+			window.document.getElementById('frm_busca').rad_tipo[0].onfocus = function() {
+				this.focused = true;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').rad_tipo[0].onblur = function() {
+				this.focused = false;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').rad_tipo[0].onclick = function() {
+				fVoid_BuscaTipo();
+
+				return;
+			};
+			
+			window.document.getElementById('frm_busca').rad_tipo[1].onfocus = function() {
+				this.focused = true;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').rad_tipo[1].onblur = function() {
+				this.focused = false;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').rad_tipo[1].onclick = function() {
+				fVoid_BuscaTipo();
+
+				return;
+			};
+			
+			window.document.getElementById('frm_busca').btn_ir.onfocus = function() {
+				this.focused = true;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+			window.document.getElementById('frm_busca').btn_ir.onblur = function() {
+				this.focused = false;
+				setTimeout('fVoid_BuscaExibicao();',100);
+
+				return;
+			};
+
+			fVoid_BuscaTipo();
+			
+		</script>
+		<script src="_include/executa_depois.js"></script>
+
+	</body>
+
+</html>
